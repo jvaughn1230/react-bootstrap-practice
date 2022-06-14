@@ -9,8 +9,8 @@ const NavbarComponent = () => {
         <div>
             <Navbar expand='md' bg='dark' variant='dark'>
                 <Container fluid>
-                    <Navbar.Brand href='#'>Bootstrap Practice</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" /> {/*Needs more work here*/}
+                    <Navbar.Brand href='#'>React Bootstrap</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/> {/*Needs more work here*/}
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav> 
                             <Nav.Link href='#' aria-current='page'>Home</Nav.Link>
@@ -32,11 +32,7 @@ const NavbarComponent = () => {
                         </Nav>
                     </Navbar.Collapse>      
                 </Container>
-            </Navbar> 
-
-           
-
-            
+            </Navbar>             
         </div>
        
     );

@@ -1,13 +1,13 @@
-main>.container {
+.main-container {
   padding: 60px 15px 0;
   margin-bottom: 5rem;
 }
 
-main>.container-fluid{
+.main-container-fluid{
   padding-top: 60px;
 }
 
-body> main {
+.body-main {
   margin-top: 20px;
   margin-bottom: 60px;
 }
@@ -27,6 +27,7 @@ body> main {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  height: 84vh;
 }
 
 .homeText {
@@ -38,4 +39,15 @@ body> main {
 
 .minHeight{
   min-height: 80vh;
+}
+
+.flex-wrapper{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+Navbar.Brand{
+  font: 1.25rem;
 }

@@ -5,14 +5,18 @@ import { Route, Routes } from 'react-router-dom';
 
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Home from './Routes/Home/Home';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Navbar />}>
-        <Route path='/' element={<Footer />} />
-      </Route>
-    </Routes>
+    <div className='d-flex flex-column h-100'>
+      <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      <Footer />
+    </div>
+    
   );
 }
 
