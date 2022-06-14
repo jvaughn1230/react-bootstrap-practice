@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Grid1 = () => {
+const Grid7 = () => {
     return(
         <div className='flex-shrink-0'>
             <div className='main-container'></div>
@@ -8,4 +8,4 @@ const Grid1 = () => {
     );
 }
 
-export default Grid1;
+export default Grid7;
